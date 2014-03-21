@@ -1,0 +1,5 @@
+.DS_Store
+.bundle
+/tmp
+tags
+.env
