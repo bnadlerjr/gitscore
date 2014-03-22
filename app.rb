@@ -1,5 +1,8 @@
 require "sinatra/base"
 require "rack/csrf"
+require_relative "app/adapters/github"
+require_relative "app/user_profile"
+require "httparty"
 
 Dir.glob(File.join("helpers", "**", "*.rb")).each do |helper|
   require_relative helper
@@ -21,6 +24,11 @@ module Gitscore
 
     get "/" do
       erb :index
+    end
+
+    get "/:username" do
+      @profile = settings.github.fetch_profile(params[:username])
+      erb :profile
     end
   end
 end
