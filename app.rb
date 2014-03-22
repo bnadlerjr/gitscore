@@ -2,6 +2,7 @@ require "sinatra/base"
 require "rack/csrf"
 require_relative "app/adapters/github"
 require_relative "app/user_profile"
+require_relative "app/event"
 require "httparty"
 
 Dir.glob(File.join("helpers", "**", "*.rb")).each do |helper|

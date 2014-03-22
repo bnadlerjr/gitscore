@@ -1,12 +1,17 @@
 require_relative "../test_helper"
 require_relative "../../app/user_profile"
+require_relative "../../app/event"
 
 class FakeGithub
   def fetch_profile(username)
-    Gitscore::UserProfile.new(
+    profile = Gitscore::UserProfile.new(
       username: "bnadlerjr",
       name: "Bob Nadler"
     )
+
+    profile.events << Gitscore::Event.new(type: "WatchEvent")
+    profile.events << Gitscore::Event.new(type: "IssueEvent")
+    profile
   end
 end
 
@@ -22,5 +27,6 @@ class AppTest < Rack::Test::TestCase
     assert_response :ok
     assert_body_contains "bnadlerjr"
     assert_body_contains "Bob Nadler"
+    assert_body_contains "Score: 4"
   end
 end
