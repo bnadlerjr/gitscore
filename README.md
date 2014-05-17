@@ -1,14 +1,6 @@
 # Gitscore
 
-TODO: Project description.
-
-## Getting Started
-
-### Starting the Server
-
-### Project Layout
-
-## Notes / Use
+This is the example app from my [GitScore Screencasts](http://bobnadler.com/articles/2014/04/01/gitscore-part-1.html).
 
 ## Contributing
 
