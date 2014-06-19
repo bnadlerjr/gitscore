@@ -1,6 +1,7 @@
 # Gitscore
 
 [![Code Climate](https://codeclimate.com/github/bnadlerjr/gitscore.png)](https://codeclimate.com/github/bnadlerjr/gitscore)
+[![Dependency Status](https://gemnasium.com/bnadlerjr/gitscore.svg)](https://gemnasium.com/bnadlerjr/gitscore)
 
 This is the example app from my [GitScore Screencasts](http://bobnadler.com/articles/2014/04/01/gitscore-part-1.html).
 
