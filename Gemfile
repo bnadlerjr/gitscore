@@ -7,7 +7,7 @@ gem "thin",      "~> 1.5.1"
 gem "httparty",  "~> 0.13.1"
 
 group :development do
-  gem "rake",             "~> 10.1.0"
+  gem "rake",             "~> 10.3.2"
   gem "sinatra-reloader", "~> 1.0"
 end
 
