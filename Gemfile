@@ -4,7 +4,7 @@ ruby "2.0.0"
 gem "rack_csrf", "~> 2.5.0"
 gem "sinatra",   "~> 1.4.5"
 gem "thin",      "~> 1.6.3"
-gem "httparty",  "~> 0.13.2"
+gem "httparty",  "~> 0.13.3"
 
 group :development do
   gem "rake",             "~> 10.3.2"
