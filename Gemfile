@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "2.0.0"
+ruby "2.1.1"
 
 gem "rack_csrf", "~> 2.5.0"
 gem "sinatra",   "~> 1.4.5"
@@ -7,7 +7,7 @@ gem "thin",      "~> 1.6.3"
 gem "httparty",  "~> 0.13.3"
 
 group :development do
-  gem "rake",             "~> 10.3.2"
+  gem "rake",             "~> 10.4.2"
   gem "sinatra-reloader", "~> 1.0"
 end
 
