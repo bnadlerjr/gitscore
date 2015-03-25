@@ -2,7 +2,7 @@ source "https://rubygems.org"
 ruby "2.1.1"
 
 gem "rack_csrf", "~> 2.5.0"
-gem "sinatra",   "~> 1.4.5"
+gem "sinatra",   "~> 1.4.6"
 gem "thin",      "~> 1.6.3"
 gem "httparty",  "~> 0.13.3"
 
