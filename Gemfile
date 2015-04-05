@@ -15,4 +15,4 @@ group :test do
   gem "contest", "~> 0.1.3"
 end
 
-gem "dotenv", "~> 2.0.0", group: :development
+gem "dotenv", "~> 2.0.1", group: :development
